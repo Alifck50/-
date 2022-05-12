@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="style5.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@300;400;500;600&family=Roboto+Serif:wght@100;200;300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="sujet.html">Полный сюжет</a></li>
+          <li><a href="kadrs.html">Кадры из мультфильма</a></li>
+          <li><a href="regist.html">Войти на сайт</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Контакты</h1>
+      <p>Если остались вопросы, то заполните форму <br> ответим за 5-10 минут</p>
+      <a href="sujet.html" class="hero-btn">Подробнее</a>
+    </div>
+  </header>
+  <!-- конец header-->
+ <!-- ФОРМА-->
+ <form class="decor">
+  <div class="form-left-decoration"></div>
+  <div class="form-right-decoration"></div>
+  <div class="circle"></div>
+  <div class="form-inner">
+  <h3>Написать нам</h3>
+  <input type="text" placeholder="Имя пользователя">
+  <input type="email" placeholder="Email">
+  <textarea placeholder="Сообщение..." rows="3"></textarea>
+  <input type="submit" value="Отправить">
+  </div>
+</form>
+
+  <!-- footer-->
+  <footer>
+    <p>Подписывайтесь на наши социальные сети, <br> чтобы не пропускать обновления</p>
+    <div class="icons">
+      <i class="fab fa-vk"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-telegram"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+</body>
+</html>

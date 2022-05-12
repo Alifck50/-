@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Трейлер мультсериала Гравити Фолз</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@300;400;500;600&family=Roboto+Serif:wght@100;200;300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="sujet.html">Полный сюжет</a></li>
+          <li><a href="kadrs.html">Кадры из мультфильма</a></li>
+          <li><a href="regist.html">Войти на сайт</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Трейлер мультсериала Гравити Фолз</h1>
+      <p>Gravity Falls, мультсериал, 2012</p>
+      <a href="sujet.html" class="hero-btn">Подробнее</a>
+    </div>
+  </header>
+
+<!-- Видео -->
+
+  <div class="trailer">
+    <h1>Трейлер</h1>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/Cb6tE5EmVds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+<!-- конец видео -->
+  <footer>
+    <p>Подписывайтесь на наши социальные сети, <br> чтобы не пропускать обновления</p>
+    <div class="icons">
+      <i class="fab fa-vk"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-telegram"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </footer>
+  
+  <!-- end footer -->
+  
+  
+  
+    <script>
+  
+      let navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+  
+    </script>
+  
+    <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>
